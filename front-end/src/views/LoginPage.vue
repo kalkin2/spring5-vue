@@ -1,8 +1,9 @@
 <template>
-  <div  id="app">
+  <div>
     <h1>TaskAgile</h1>
-    </div>
+  </div>
 </template>
+
 <script>
 export default {
   name: 'LoginPage'

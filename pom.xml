@@ -163,7 +163,7 @@
 							<resources>
 								<resource>
 									<directory>front-end/dist</directory>
-									<includes><include>index.html</include></includes>
+									<excludes><exclude>index.html</exclude></excludes>
 								</resource>
 							</resources>
 						</configuration>
@@ -180,14 +180,14 @@
 							<resources>
 								<resource>
 									<directory>front-end/dist</directory>
-									<includes><include>index.html</include></includes>
+									<excludes><exclude>index.html</exclude></excludes>
 								</resource>
 							</resources>
 						</configuration>
 					</execution>
 
 					<execution>
-						<id>copy front-end asset assets</id>
+						<id>copy front-end  assets to target</id>
 						<goals>
 							<goal>copy-resources</goal>
 						</goals>
@@ -197,7 +197,7 @@
 							<resources>
 								<resource>
 									<directory>front-end/dist</directory>
-									<includes><include>index.html</include></includes>
+									<excludes><exclude>index.html</exclude></excludes>
 								</resource>
 							</resources>
 						</configuration>
